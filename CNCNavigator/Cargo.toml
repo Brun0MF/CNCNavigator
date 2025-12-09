@@ -1,0 +1,8 @@
+[package]
+name = "CNCNavigator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced = {version="0.13.1",features = ["canvas","image"]}
+iced_aw = { version = "0.12.2", features = ["menu"] }
